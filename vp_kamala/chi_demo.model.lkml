@@ -11,6 +11,8 @@ datagroup: chi_demo_default_datagroup_2 {
   max_cache_age: "24 hours"
 }
 
+explore: entities_new {}
+
 # case_sensitive: no
 
 # access_grant: can_view_financial_data {
