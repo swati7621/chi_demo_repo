@@ -21,7 +21,7 @@ view: conversation_events {
 
   measure: line_measure_demo {
     type: count
-    # sql: ${_line} ;;
+     sql: ${_line} ;;
     # sql: ${TABLE}."_LINE" ;;
   }
 
