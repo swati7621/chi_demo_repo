@@ -17,6 +17,11 @@ view: entities_new {
     sql: ${TABLE}."_LINE" ;;
   }
 
+  dimension: name_upper {
+    type: string
+    sql: upper(${display_name}) ;;
+  }
+
   dimension: _modified {
     type: string
     sql: ${TABLE}."_MODIFIED" ;;
