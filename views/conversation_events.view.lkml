@@ -25,6 +25,10 @@ view: conversation_events {
     # sql: ${TABLE}."_LINE" ;;
   }
 
+  dimension: actor_demo {
+    type: string
+  }
+
   dimension: line_tier {
     type: tier
     tiers: [100,1000,10000,100000]
